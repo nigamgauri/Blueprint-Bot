@@ -1,26 +1,33 @@
-# 🛠️ Coder Buddy
+# 🛠️ Blueprint Bot  
 
-**Coder Buddy** is an AI-powered coding assistant built with [LangGraph](https://github.com/langchain-ai/langgraph).  
-It works like a multi-agent development team that can take a natural language request and transform it into a complete, working project — file by file — using real developer workflows.
+**Blueprint Bot** is an AI-powered coding assistant built by **Gauri Nigam**, a third-year B.Tech student.  
+Developed using [LangGraph](https://github.com/langchain-ai/langgraph), it works like a multi-agent development team that takes natural language prompts and turns them into complete, working projects — file by file — using real developer workflows.  
 
 ---
 
-## 🏗️ Architecture
+## 🧩 Overview  
+Blueprint Bot acts as a **virtual coding partner**, simplifying the process of building software through automation. It understands user requirements, plans the structure, generates files, and writes production-level code autonomously.  
 
-- **Planner Agent** – Analyzes your request and generates a detailed project plan.
-- **Architect Agent** – Breaks down the plan into specific engineering tasks with explicit context for each file.
-- **Coder Agent** – Implements each task, writes directly into files, and uses available tools like a real developer.
+---
+
+## 🏗️ Architecture  
+- **Planner Agent** – Analyzes your request and creates a detailed project plan.  
+- **Architect Agent** – Breaks down the plan into engineering tasks with proper file context.  
+- **Coder Agent** – Implements tasks, writes directly into files, and uses standard developer tools.  
 
 <div style="text-align: center;">
-    <img src="resources/coder_buddy_diagram.png" alt="Coder Agent Architecture" width="90%"/>
+    <img src="resources/coder_buddy_diagram.png" alt="Blueprint Bot Architecture" width="90%"/>
 </div>
 
 ---
 
-## 🚀 Getting Started
-### Prerequisites
-- Make sure you have uv installed, follow the instructions [here](https://docs.astral.sh/uv/getting-started/installation/) to install it.
-- Ensure that you have created a groq account and have your API key ready. Create an API key [here](https://console.groq.com/keys).
+## 🚀 Getting Started  
+
+### Prerequisites  
+- Install **uv** following [these instructions](https://docs.astral.sh/uv/getting-started/installation/).  
+- Create a **Groq account** and generate your API key [here](https://console.groq.com/keys).  
+
+---
 
 ### ⚙️ **Instsllstion and Startup**
 - Create a virtual environment using: `uv venv` and activate it using `source .venv/bin/activate`
