@@ -114,7 +114,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 Please keep the code style consistent (ES2021, 2‑space indentation) and avoid adding external dependencies.
 
 ---
-
-## License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
