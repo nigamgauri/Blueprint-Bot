@@ -1,7 +1,7 @@
 [project]
 name = "Blueprint-Bot"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered coding assistant built with LangGraph. Simulates a multi-agent dev team (Planner, Architect, Coder) to generate complete, working projects from prompts."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
