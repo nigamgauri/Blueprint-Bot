@@ -28,14 +28,14 @@ A lightweight, vanilla‑JavaScript calculator that runs entirely in the browser
 
 ## Setup / Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd SimpleCalculator
-   ```
-2. **Open the app**
-   - Double‑click `index.html` **or** open it in any modern browser (Chrome, Firefox, Edge, Safari, etc.).
-   - No build step, server, or package manager is required – the app is pure client‑side.
+1.  **Clone the repository**
+    ```bash
+    git clone <repository-url>
+    cd SimpleCalculator
+    ```
+2.  **Open the app**
+    - Double‑click `index.html` **or** open it in any modern browser (Chrome, Firefox, Edge, Safari, etc.).
+    - No build step, server, or package manager is required – the app is pure client‑side.
 
 ---
 
@@ -62,20 +62,21 @@ A lightweight, vanilla‑JavaScript calculator that runs entirely in the browser
 - **±** – Toggle sign of the current number.
 - **.** – Decimal point.
 - **=** – Evaluate the expression.
+  ### Keyboard Shortcuts
 
-### Keyboard Shortcuts
-| Key | Action |
-|-----|--------|
-| `0‑9` | Enter corresponding digit |
-| `.` | Decimal point |
+| Key         | Action                        |
+|-------------|-------------------------------|
+| `0‑9`       | Enter corresponding digit     |
+| `.`         | Decimal point                 |
 | `+`, `-`, `*`, `/` | Operators (`*` = multiplication, `/` = division) |
-| `Enter` or `=` | Evaluate (`=`) |
-| `Backspace` | Delete last character |
-| `Escape` | Clear all (`C`) |
-| `Shift + %` | Percentage |
-| `Ctrl + ±` | Toggle sign |
+| `Enter` or `=` | Evaluate (`=`)                |
+| `Backspace` | Delete last character         |
+| `Escape`    | Clear all (`C`)               |
+| `Shift + %` | Percentage                    |
+| `Ctrl + ±`  | Toggle sign                   |
 
 ### Error Handling
+
 - **`Error: Division by zero`** – Shown when the expression attempts to divide by zero.
 - **`Error: Invalid expression`** – Shown for malformed input (e.g., two operators in a row).
 - Errors replace the result display until the user clears or edits the expression.
@@ -90,13 +91,13 @@ The calculator uses a flexible Flexbox grid and media queries to adapt to differ
 
 ## File Structure
 
-| File | Purpose |
-|------|---------|
-| `index.html` | Markup – layout of the calculator UI and display area. |
-| `styles.css` | Styling – Flexbox grid, responsive adjustments, and visual theme. |
-| `script.js` | Core JavaScript – expression parsing, evaluation, event handling, and keyboard support. |
-| `README.md` | Project documentation (this file). |
-| `LICENSE` | MIT license placeholder. |
+| File         | Purpose                                                                 |
+|--------------|-------------------------------------------------------------------------|
+| `index.html` | Markup – layout of the calculator UI and display area.                  |
+| `styles.css` | Styling – Flexbox grid, responsive adjustments, and visual theme.       |
+| `script.js`  | Core JavaScript – expression parsing, evaluation, event handling, and keyboard support. |
+| `README.md`  | Project documentation (this file).                                      |
+| `LICENSE`    | MIT license placeholder.                                                |
 
 ---
 
@@ -104,11 +105,11 @@ The calculator uses a flexible Flexbox grid and media queries to adapt to differ
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/awesome‑feature`).
-3. Make your changes, ensuring the calculator still works by opening `index.html`.
-4. Commit with a clear message and push to your fork.
-5. Open a pull request against the `main` branch.
+1.  Fork the repository.
+2.  Create a feature branch (`git checkout -b feature/awesome‑feature`).
+3.  Make your changes, ensuring the calculator still works by opening `index.html`.
+4.  Commit with a clear message and push to your fork.
+5.  Open a pull request against the `main` branch.
 
 Please keep the code style consistent (ES2021, 2‑space indentation) and avoid adding external dependencies.
 
